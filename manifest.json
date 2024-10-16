@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Minimal New Tab",
+  "version": "1.0",
+  "description": "An extremely minimal New Tab Page!",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["storage"]
+}
