@@ -13,7 +13,7 @@ colorPicker.addEventListener("input", (event) => {
 });
 
 document.getElementById("clearStorageBtn").addEventListener("click", function() {
-    const defaultColor = "#f9f9f9";
+    const defaultColor = "#121212";
 
     console.log("Extension Reset");
     

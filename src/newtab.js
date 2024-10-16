@@ -3,7 +3,7 @@ chrome.storage.local.get("backgroundColor", (data) => {
         document.body.style.backgroundColor = data.backgroundColor;
     } else {
         const help = document.getElementById("introhelp");
-        document.body.style.backgroundColor = "#f9f9f9";
+        document.body.style.backgroundColor = "#121212";
       
         document.getElementById("introh1").innerHTML = "Welcome to the Minimal New Tab Page!";
         document.getElementById("intro").innerHTML = "This extension is for a very minimal and simple solid color NTP.";
